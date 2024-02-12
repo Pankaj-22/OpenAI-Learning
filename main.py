@@ -1,10 +1,10 @@
-print("my first code commit")
-print("2nd try")
+import os
+import openai
 
-def add(a, b):
-    c=a+b
-    return c
+# Create, copy, and paste your API key here:
+openai.api_key = "sk-123456789"
+
+response = openai.Completion.create(model="text-davinci-003",prompt="2+2=",temperature=0, max_tokens=10)
 
 
-sum=add(5,6)
-print("the sum of a and b is", sum)
+#### Check out https://blog.finxter.com/openapi-cheat-sheet/
