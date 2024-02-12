@@ -1,3 +1,3 @@
 # learning
-for learning Automation
+for learning Automation with Open AI
 // Added main.py
